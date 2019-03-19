@@ -1,0 +1,44 @@
+body { 
+	font-size: 18px; 
+	font-family: Arial, Helvetica, sans-serif;
+    color: #7777;
+}
+
+#nav-name { 
+	padding: 10px !important;
+	background-color: #4aaaab;
+	color: #ffff;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 700; 
+	font-size: 26px;
+}
+
+nav, ul, li, .nav-link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px; 
+	font-weight: 500; 
+	text-decoration: none; 
+	color: #7777; 
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+nav, .border-bottom { 
+	border-bottom: 2px solid !important;
+}
+
+footer, .border-top { 
+	border-top: 4px solid #4aaaab !important; 
+	background-color: #dddd !important;
+}
+
+footer, p { 
+	padding-top: 20px; 
+	padding-bottom: 5px;
+}
+
+footer, p, .text-light { 
+	color: #ffff; 
+}
+
+
