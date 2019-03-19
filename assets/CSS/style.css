@@ -1,11 +1,13 @@
+/* For the body of the website and the background */
 body { 
+	background-image: url(../Images/background-cement-concrete-242236.jpg);
 	font-size: 18px; 
 	font-family: Arial, Helvetica, sans-serif;
     color: #7777;
 }
-
+/* Header/Navigation bar */
 #nav-name { 
-	padding: 10px !important;
+	padding: 25px !important;
 	background-color: #4aaaab;
 	color: #ffff;
 	font-family: Georgia, 'Times New Roman', Times, serif;
@@ -19,17 +21,80 @@ nav, ul, li, .nav-link {
 	font-weight: 500; 
 	text-decoration: none; 
 	color: #7777; 
-	padding-left: 10px;
 	padding-right: 10px;
+	padding-left: 10px;
 }
 
 nav, .border-bottom { 
-	border-bottom: 2px solid !important;
+	border-bottom: 1px solid #7777 !important;
+}
+/* Main section */
+section { 
+	background: #ffff; 
+	margin-top: 25px;
+}
+
+section, img { 
+	Width: 200px; 
+	height: 200; 
+}
+
+section, .border { 
+	border-color: #7777 !important;
+	border-left: 3px;
+}
+
+section, h2 { 
+	color: #4aaaab; 
+	font-family: Georgia, 'Times New Roman', Times, serif; 
+	font-weight: 700; 
+	font-size: 30px; 
+	padding-top: 10px; 
+}
+
+section, h2, img { 
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+section, p { 
+	color: #7777 !important; 
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-right: 20px;
+}
+
+section, p:last-child { 
+	padding-bottom: 10px; 
+}
+
+section, .row:last-child { 
+	padding-bottom: 10px;
+}
+
+.portfolioText { 
+	background-color: #4aaaab;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	width: 150px;
+	color: #ffff; 
+	
+	text-align: center;
+	
+
+}
+
+/* Contact Form */
+section, form, .placeholder { 
+	color: #7777 !important;
+}
+
+/* Footer */
+footer { 
+	background-color: #777777; 
 }
 
 footer, .border-top { 
-	border-top: 4px solid #4aaaab !important; 
-	background-color: #dddd !important;
+	border-top: 8px solid #4aaaab !important;
 }
 
 footer, p { 
@@ -40,5 +105,6 @@ footer, p {
 footer, p, .text-light { 
 	color: #ffff; 
 }
+
 
 
